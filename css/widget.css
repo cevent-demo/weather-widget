@@ -1,0 +1,79 @@
+#weather-widget {
+    width: 304px;
+    height: 154px;
+
+    margin: 0;
+    padding: 5px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+
+    box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+#weather-widget .errorTitle {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#weather-widget .error {
+    line-height: 1.3;
+}
+
+
+#weather-widget div,
+#weather-widget ul,
+#weather-widget li {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: sans;
+    line-height: 1;
+}
+
+#weather-widget .row {
+    margin: 5px;
+}
+
+/* clear fix */
+#weather-widget .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#weather-widget .column {
+    float: left;
+}
+
+#weather-widget .city {
+    font-size: 32px;
+}
+
+#weather-widget .temp {
+    font-size: 75px;
+}
+
+#weather-widget ul {
+    list-style-type: none;
+    clear: both;
+}
+
+#weather-widget li {
+    display: inline-block;
+    width: 58px;
+    border-right: 1px dotted black;
+}
+
+#weather-widget li:last-child {
+    margin-right: 0;
+    border-right: none;
+}
+
+#weather-widget .day {
+    text-align: center;
+}
+
+#weather-widget .dayForecast {
+    text-align: center;
+}
